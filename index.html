@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Flowing</title>
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo3.png" alt="logo" class="logo" />
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-link"><a href="#home">Home</a></li>
+          <li class="nav-link"><a href="#news">News</a></li>
+          <li class="nav-link"><a href="#shop">Shop</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" class="icon cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+        <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu" />
+        <ul class="toggle-list">
+          <li><a href="./login.html" class="toggle-link">Iniciar Sesión</a></li>
+          <li><a href="./signup.html" class="toggle-link">Registrarse</a></li>
+          <li><a href="#footer" class="toggle-link">Redes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section id="hero">
+        <div class="hero-img">
+          <img src="./img/model1.png" alt="model" />
+        </div>
+        <div class="hero-info">
+          <p>We not follow trends</p>
+          <h1>We flow in trends</h1>
+          <p>
+            <span>Flowing</span> trae las mejores prendas para estar a la moda,
+            cumpliendo las expectativas de los clientes y brindando comodidad y
+            estilo a sus outfits.
+          </p>
+          <a href="#shop">Shop now</a>
+        </div>
+      </section>
+    </main>
+
+    <section id="benefits">
+      <h2>Beneficios</h2>
+      <p>
+        Brindamos la mejor atención posible a nuestros clientes, en todo
+        momento, y los ayudamos a resolver sus dudas satisfactoriamente.
+      </p>
+      <div class="benefits-container">
+        <div class="benefits-cards">
+          <img src="./img/benefit1.png" alt="benefit" />
+        </div>
+        <div class="benefits-cards">
+          <img src="./img/benefit2.png" alt="benefit" />
+        </div>
+        <div class="benefits-cards">
+          <img src="./img/benefit3.png" alt="benefit" />
+        </div>
+        <div class="benefits-cards">
+          <img src="./img/benefit4.png" alt="benefit" />
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2>New Collection 2023</h2>
+
+      <div class="news-cards">
+        <h3>Jacket</h3>
+        <div class="collection-img">
+          <img src="./img/jacket6.png" alt="jacket" />
+        </div>
+        <div class="collection-info">
+          <p>$179,99</p>
+          <button>Add</button>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <h3>Hoodie</h3>
+        <div class="collection-img">
+          <img src="./img/hoodie1.png" alt="hoodie" />
+        </div>
+        <div class="collection-info">
+          <p>$159,99</p>
+          <button>Add</button>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <h3>Hat</h3>
+        <div class="collection-img">
+          <img src="./img/hat1.png" alt="hat" />
+        </div>
+        <div class="collection-info">
+          <p>$59,99</p>
+          <button>Add</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop">
+      <div class="shop-container">
+        <div class="shop-img">
+          <img src="./img/model5.png" alt="model" />
+        </div>
+        <div class="shop-link">
+          <h2><a href="./shop.html">Shop</a></h2>
+        </div>
+        <div class="shop-img2">
+          <img src="./img/model6.png" alt="model" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+
+      <div class="contact-form">
+        <form>
+          <label for="nombre">Nombre y Apellido:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Ingrese su nombre y apellido"
+            required
+          />
+
+          <label for="correo">Correo:</label>
+          <input
+            type="email"
+            name="correo"
+            id="correo"
+            placeholder="micorreo@gmail.com"
+            required
+          />
+
+          <label for="texto">Dinos tu consulta:</label>
+          <textarea
+            id="texto"
+            placeholder="Ingrese su consulta"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+
+          <div class="submit">
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-copy">
+        <img src="./img/logo3.png" alt="logo" />
+        <p>©Flowing. Todos los derechos reservados.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-redes">
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="#855ab6"
+          >
+            <path
+              d="M16.98 0a6.9 6.9 0 0 1 5.08 1.98A6.94 6.94 0 0 1 24 7.02v9.96c0 2.08-.68 3.87-1.98 5.13A7.14 7.14 0 0 1 16.94 24H7.06a7.06 7.06 0 0 1-5.03-1.89A6.96 6.96 0 0 1 0 16.94V7.02C0 2.8 2.8 0 7.02 0h9.96zm.05 2.23H7.06c-1.45 0-2.7.43-3.53 1.25a4.82 4.82 0 0 0-1.3 3.54v9.92c0 1.5.43 2.7 1.3 3.58a5 5 0 0 0 3.53 1.25h9.88a5 5 0 0 0 3.53-1.25 4.73 4.73 0 0 0 1.4-3.54V7.02a5 5 0 0 0-1.3-3.49 4.82 4.82 0 0 0-3.54-1.3zM12 5.76c3.39 0 6.2 2.8 6.2 6.2a6.2 6.2 0 0 1-12.4 0 6.2 6.2 0 0 1 6.2-6.2zm0 2.22a3.99 3.99 0 0 0-3.97 3.97A3.99 3.99 0 0 0 12 15.92a3.99 3.99 0 0 0 3.97-3.97A3.99 3.99 0 0 0 12 7.98zm6.44-3.77a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z"
+            />
+          </svg>
+        </a>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="#855ab6"
+          >
+            <path
+              d="M24 4.37a9.6 9.6 0 0 1-2.83.8 5.04 5.04 0 0 0 2.17-2.8c-.95.58-2 1-3.13 1.22A4.86 4.86 0 0 0 16.61 2a4.99 4.99 0 0 0-4.79 6.2A13.87 13.87 0 0 1 1.67 2.92 5.12 5.12 0 0 0 3.2 9.67a4.82 4.82 0 0 1-2.23-.64v.07c0 2.44 1.7 4.48 3.95 4.95a4.84 4.84 0 0 1-2.22.08c.63 2.01 2.45 3.47 4.6 3.51A9.72 9.72 0 0 1 0 19.74 13.68 13.68 0 0 0 7.55 22c9.06 0 14-7.7 14-14.37v-.65c.96-.71 1.79-1.6 2.45-2.61z"
+            />
+          </svg>
+        </a>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="#855ab6"
+          >
+            <path
+              d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
